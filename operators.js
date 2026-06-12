@@ -15,3 +15,17 @@ console.log(c*=10)
 console.log(c/=10)
 console.log(c%=10)
 console.log(c**=10)
+
+//comparsion
+console.log("comparsion operator")
+var a=10
+var b=20
+console.log(a<=b)
+console.log(a>=b)
+
+//logical operator
+console.log("logical operator");
+console.log(a > 0 && b > 0)
+console.log(a > 0 && b < 0)
+console.log(a < 0 || b < 0)
+console.log(!(a > 0));
