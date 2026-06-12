@@ -29,3 +29,16 @@ console.log(a > 0 && b > 0)
 console.log(a > 0 && b < 0)
 console.log(a < 0 || b < 0)
 console.log(!(a > 0));
+
+// Unary operator
+console.log("Unary operator")
+ var a=20
+console.log(a++);
+console.log(a--);
+console.log(++a);
+console.log(--a);
+
+// Ternary operator
+console.log("Ternary operator")
+var result =(a > b ) ?"a is greater" : "b is greater";
+console.log(result);
